@@ -20,7 +20,7 @@
 ;*********************************************************************************************
 ;conform => when you want more information about how data matches spec.
 ;It returns the possibly destructured value of the data
-(s/conform ::index-of-args ["foo" "f"])
+(s/conform ::index-of-args ["foo" "f"]) ;=> {:source "foo", :search "f"}
 ;unform is the reverse of conform
 (s/unform ::index-of-args {:source "foo", :search "f"})
 ;*********************************************************************************************

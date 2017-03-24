@@ -6,5 +6,5 @@
   :dependencies [[org.clojure/clojure "1.9.0-alpha15"]]
   :main ^:skip-aot specs.core
   :target-path "target/%s"
-  :repl-options {:init-ns specs.testing}
+  :repl-options {:init-ns specs.generators}
   :profiles {:dev {:dependencies [[org.clojure/test.check "0.9.0"]]}})

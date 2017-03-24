@@ -16,6 +16,7 @@
   "Returns the index at which search appears in source"
   [source search & opts]
   (apply str/index-of source search opts))
+
 ;********************************************************************************
 ; Now I define a specs for my function
 (s/fdef my-index-of
